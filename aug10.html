@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text" name="country" list="con">
+        <datalist id="con">
+            <option>Nepal</option>
+            <option>India</option>
+            <option>Bhutan</option>
+            <option>Pakistan</option>
+
+        </datalist>
+        <hr>
+        Food: <select name="food">
+            <optgroup label="FrontEnd">
+                <option>HTML</option> <option>Css</option> <option>Js</option>
+            </optgroup>
+            <optgroup label="Backend">
+            <option>Node</option>
+            <option>PHP</option>
+            <option>Java</option>
+            </optgroup>
+        </select>
+        <hr>
+        Readonly: <input type="text" name="n1" value="Sajan" readonly>
+        <hr>
+        Disabled: <input type="text" name="n2" value="Sajan K" disabled>
+        <hr>
+        Hidden: <input type="hidden" name="n3" value="Kafle">
+        <hr>
+        Photo: <input type="file" name="n4" accept="image/*">
+        <hr>
+        Required: <input type="text" name="n5" required>
+        <hr>
+        Autocomplete: <input type="text" name="fname" autocomplete="off">
+        <hr>
+        Autofocus: <input type="text" name="n7" id="" autofocus>
+        <hr>
+        Range:<input type="range" name="n6">
+        <hr>
+        Domain: <input type="url" name="domian">
+        <button>Send</button>
+    </form>
+</body>
+</html>
